@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Imagens Verticais</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 12px; /* Espaço entre imagens */
+    }
+
+
+    img:last-child {
+      margin-bottom: 0; /* Remove espaço depois da última imagem */
+    }
+  </style>
+</head>
+<body>
+
+  <img src="Brown Minimalist Restaurant Menu Portrait.png" alt="Imagem 1" />
+  <img src="2.png" alt="Imagem 2" />
+  <img src="3.png" alt="Imagem 3" />
+
+</body>
+</html>
